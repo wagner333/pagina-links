@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(1, 11, 32);
+    color: white;
+}
+main .container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80000000px;
+    border: white solid 4px;
+
+}
+main .container .btns-media button{
+ padding: 30px 30px;
+ margin: 10px;
+ font-size: 30px;
+ border-radius: 15px;
+ border: none;
+ transition: 0.5s;
+ cursor: pointer;
+}
+main .container .btns-media .Instagram:hover{
+  color: white;
+  background-image: linear-gradient(to right, #ff8a00, #da1b60);
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+main .container .btns-media .Youtube:hover{
+ background-color: red;
+ color: white;
+ transition: 0.5s;
+ cursor: pointer;
+}
+main .container .btns-media .GitHub:hover{
+  color: white;
+  background-color: rgb(0, 5, 17);
+  transition: 0.5s;
+  cursor: pointer;
+}
+main .container .links .btn {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 200px;
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+
+    
+}
+/* CSS */
+@keyframes blink {
+    0% {
+        opacity: 5;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 5;
+    }
+}
+
+/* CSS */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn-importante {
+    animation: pulse 1.5s infinite alternate;
+    /* Outras propriedades do botão */
+    padding: 10px 200px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.btn-importante:hover{
+    border: white solid 1px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+    border: none;
+}
+
+
+main .container .links .btn:hover{
+    color: rgb(1, 11, 32);
+    background-color: white;
+    transition: 0.5s;
+    
+}

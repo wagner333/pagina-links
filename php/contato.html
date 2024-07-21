@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário PHP</title>
+    <link rel="stylesheet" href="css/stylePHP.css">
+</head>
+<body>
+    <form action="processar_formulario.php" method="post">
+        <label for="Nome">Nome</label>
+        <input type="text" name="nome" >
+        <label for="email">E-mail</label><br>
+        <input type="text" id="email" name="email" placeholder="Exemplo@gmail.com" required><br>
+
+        <label for="telefone">Telefone</label><br>
+        <input type="text" id="telefone" name="telefone" placeholder="(99) 9999-9999" required><br><br>
+
+        <label for="texto">Texto do Pedido</label><br>
+        <textarea id="texto" name="mensagem" placeholder="Digite seu pedido" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+

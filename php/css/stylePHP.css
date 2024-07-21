@@ -1,0 +1,138 @@
+/* Estilo CSS completo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(1, 11, 32);
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical; /* Permite redimensionar verticalmente apenas */
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos adicionais para os botões de mídia */
+.btns-media {
+    margin-top: 20px;
+}
+
+.btns-media button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns-media button:hover {
+    background-color: #0056b3;
+}
+
+.btns-media button i {
+    margin-right: 5px;
+}
+
+/* Estilos para os links */
+.links {
+    margin-top: 30px;
+}
+
+.links button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links button i {
+    margin-right: 5px;
+}
+
+.links button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para botão importante */
+.btn-importante {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-importante:hover {
+    background-color: #d94817;
+}
